@@ -1,0 +1,35 @@
+This is a simple repo with demo samples of javascript and reactjs created and executed through various methods
+
+---------------------------------- COMMAND ----------------------------------
+npm create vite@latest todo-app -- --template react-ts - Create a new vite project whatever that means
+npm list -g                                            - List all packages installed globally or a specific one
+npm list -g create-react-app                           - List a specific global package 
+npm install -g typescript                              - Install typescript package globally
+npx tsc                                                - Npx allows you to search the local node_modules for a binary tsc and it will execute it
+nvm ls-remote                                          - List Available Node.js Versions: Check which versions are available
+nvm install 20.18.0                                    - Install a specific version of node through nvm  
+nvm use 24.2.0                                         - Set the active version of node
+
+---------------------------------- COMMAND ----------------------------------
+
+
+---------------------------------- DIRECTORY --------------------------------
+./node_modules  - Resides in a projects root
+~/.npm/npx      - Directoory with npm temporary caches and such
+
+
+
+---------------------------------- DIRECTORY --------------------------------
+
+
+
+---------------------------------- NOTES ------------------------------------
+There is a default node directory in PATH and this does not change by changing nvm use <version> this means which node always return the same 
+
+
+
+---------------------------------- NOTES ------------------------------------
+
+
+
+
