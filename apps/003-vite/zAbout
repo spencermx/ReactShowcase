@@ -1,0 +1,5 @@
+2025-07-06
+
+ive created a very simple 'vite' project with the following command 
+
+npm create vite@latest my-vite-app -- --template react-ts

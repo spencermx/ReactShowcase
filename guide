@@ -10,6 +10,23 @@ nvm ls-remote                                          - List Available Node.js 
 nvm install 20.18.0                                    - Install a specific version of node through nvm  
 nvm use 24.2.0                                         - Set the active version of node
 
+npm init -y                                            - initialize node project i.e. create a package.json 
+npm config list                                        - list npm config settings
+npm config list -l                                     - list the default settings
+npm install express                                    - install package express to local project 
+npm uninstall express                                  - uninstall package express from local project
+npm list                                               - list local packages installed in project 
+npm prune                                              - removes unnecessary stuff from node_modules and package-lock.json
+npm install eslint --save-dev                          - installs the package to dev dependencies, not needed production build
+npm init @eslint/config@latest                         - installs eslint and adds basic configuration files
+npx eslint yourfile.js                                 - runs eslint on a specific file
+npx create-react-app todo-app --template typescript    - cra creates a react app 
+npx webpack-cli init
+
+
+
+ip addr show                                           - shows local machine ip info 
+hostname -I                                            - shows ip address or hostname
 ---------------------------------- COMMAND ----------------------------------
 
 

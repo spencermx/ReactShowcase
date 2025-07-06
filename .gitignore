@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+.pnp.*
+npm-debug.log*
+# package-lock.json # Uncomment to ignore; typically committed
+# yarn.lock        # Uncomment if not using Yarn
+
+# Build outputs
+dist/           # Webpack and Vite output
+build/          # Create React App output
+.vite/          # Vite cache
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.sample
+.env.local
+
+# Logs
+logs/
+*.log
+coverage/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+.cache/
+temp/
+tmp/
+
+# Project-specific
+.eslintcache    # CRA ESLint cache
+vite.config.ts.timestamp-* # Vite configuration timestamps
