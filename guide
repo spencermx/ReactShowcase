@@ -1,32 +1,65 @@
 This is a simple repo with demo samples of javascript and reactjs created and executed through various methods
 
 ---------------------------------- COMMAND ----------------------------------
-npm create vite@latest todo-app -- --template react-ts - Create a new vite project whatever that means
-npm list -g                                            - List all packages installed globally or a specific one
-npm list -g create-react-app                           - List a specific global package 
-npm install -g typescript                              - Install typescript package globally
-npx tsc                                                - Npx allows you to search the local node_modules for a binary tsc and it will execute it
-nvm ls-remote                                          - List Available Node.js Versions: Check which versions are available
-nvm install 20.18.0                                    - Install a specific version of node through nvm  
-nvm use 24.2.0                                         - Set the active version of node
+npm create vite@latest todo-app -- --template react-ts        - Create a new vite react typescript project
+npm create vite@latest my-react-app -- --template react       - Create a new vite react javascript project
+npm create vite@latest my-react-ts-app -- --template react-ts - Create a new vite react typescript project
 
-npm init -y                                            - initialize node project i.e. create a package.json 
-npm config list                                        - list npm config settings
-npm config list -l                                     - list the default settings
-npm install express                                    - install package express to local project 
-npm uninstall express                                  - uninstall package express from local project
-npm list                                               - list local packages installed in project 
-npm prune                                              - removes unnecessary stuff from node_modules and package-lock.json
-npm install eslint --save-dev                          - installs the package to dev dependencies, not needed production build
-npm init @eslint/config@latest                         - installs eslint and adds basic configuration files
-npx eslint yourfile.js                                 - runs eslint on a specific file
-npx create-react-app todo-app --template typescript    - cra creates a react app 
-npx webpack-cli init
+npm create vite@latest vanilla-js -- --template vanilla
+npm create vite@latest vanilla-ts -- --template vanilla-ts
+npm create vite@latest vue-js -- --template vue
+npm create vite@latest vue-ts -- --template vue-ts
+npm create vite@latest react-js -- --template react
+npm create vite@latest react-ts -- --template react-ts
+npm create vite@latest react-swc-js -- --template react-swc
+npm create vite@latest react-swc-ts -- --template react-swc-ts
+npm create vite@latest preact-js -- --template preact
+npm create vite@latest preact-ts -- --template preact-ts
+npm create vite@latest lit-js -- --template lit
+npm create vite@latest lit-ts -- --template lit-ts
+npm create vite@latest svelte-js -- --template svelte
+npm create vite@latest svelte-ts -- --template svelte-ts
+npm create vite@latest solid-js -- --template solid
+npm create vite@latest solid-ts -- --template solid-ts
+npm create vite@latest solid-swc-js -- --template solid-swc
+npm create vite@latest solid-swc-ts -- --template solid-swc-ts
+npm create vite@latest qwik-js -- --template qwik
+npm create vite@latest qwik-ts -- --template qwik-ts
+
+npx create-react-app my-react-app                             - creates a react javascript project
+npx create-react-app my-react-app --template typescript       - creates a react typescript project
+
+vue create my-vue-app
+
+npm create vike@latest --- --react
+
+
+npm install -g @vue/cli
+npm list -g                                                   - List all packages installed globally or a specific one
+npm list -g create-react-app                                  - List a specific global package 
+npm install -g typescript                                     - Install typescript package globally
+npx tsc                                                       - Npx allows you to search the local node_modules for a binary tsc and it will execute it
+nvm ls-remote                                                 - List Available Node.js Versions: Check which versions are available
+nvm install 20.18.0                                           - Install a specific version of node through nvm  
+nvm use 24.2.0                                                - Set the active version of node
+
+npm init -y                                                   - initialize node project i.e. create a package.json 
+npm config list                                               - list npm config settings
+npm config list -l                                            - list the default settings
+npm install express                                           - install package express to local project 
+npm uninstall express                                         - uninstall package express from local project
+npm list                                                      - list local packages installed in project 
+npm prune                                                     - removes unnecessary stuff from node_modules and package-lock.json
+npm install eslint --save-dev                                 - installs the package to dev dependencies, not needed production build
+npm init @eslint/config@latest                                - installs eslint and adds basic configuration files
+npx eslint yourfile.js                                        - runs eslint on a specific file
+npx create-react-app todo-app --template typescript           - cra creates a react app 
+npx webpack-cli init                                          -   
 
 
 
-ip addr show                                           - shows local machine ip info 
-hostname -I                                            - shows ip address or hostname
+ip addr show                                                  - shows local machine ip info 
+hostname -I                                                   - shows ip address or hostname
 ---------------------------------- COMMAND ----------------------------------
 
 
@@ -46,7 +79,4 @@ There is a default node directory in PATH and this does not change by changing n
 
 
 ---------------------------------- NOTES ------------------------------------
-
-
-
 
