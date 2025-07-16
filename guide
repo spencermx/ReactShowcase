@@ -1,7 +1,6 @@
 This is a simple repo with demo samples of javascript and reactjs created and executed through various methods
 
 ---------------------------------- COMMAND ----------------------------------
-npm create vite@latest todo-app -- --template react-ts        - Create a new vite react typescript project
 npm create vite@latest my-react-app -- --template react       - Create a new vite react javascript project
 npm create vite@latest my-react-ts-app -- --template react-ts - Create a new vite react typescript project
 
@@ -32,6 +31,8 @@ npx create-react-app my-react-app --template typescript       - creates a react 
 vue create my-vue-app
 
 npm create vike@latest --- --react
+
+npx create-next-app@latest my-next-app                        - Create a new nextjs app
 
 
 npm install -g @vue/cli
