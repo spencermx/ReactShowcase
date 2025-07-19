@@ -1,5 +1,5 @@
 export default function Page1() {
-  console.log(`Rendering /page1 on server at ${new Date().toISOString()}`);
+  console.log(`Renderinggg /page1 on server at ${new Date().toISOString()}`);
   return (
     <div>
       <h1>Page 1</h1>
