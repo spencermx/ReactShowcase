@@ -1,3 +1,6 @@
+// app/page1/page.js
+export const dynamic = 'force-dynamic';
+
 export default function Page1() {
   console.log(`Renderinggg /page1 on server at ${new Date().toISOString()}`);
   return (
