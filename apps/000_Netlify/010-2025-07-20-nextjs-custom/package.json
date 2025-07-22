@@ -2,9 +2,9 @@
   "name": "010-2025-07-20-nextjs-custom",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,3 +19,6 @@
     "react-dom": "^19.1.0"
   }
 }
+
+
+
