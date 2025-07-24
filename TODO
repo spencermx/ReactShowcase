@@ -1,3 +1,10 @@
+TODO
+- Learn that SSG does not mean not interactiviyty on the client side it means that it was built a compile time, figure out how hydration works with SSG and interactivity
+- create pure SSG application deployed to netlify
+- create pure SSG application that utilizes ISR to rebuild periodically and deploy to vercel 
+
+
+
 
 
 2025-07-05
@@ -11,4 +18,5 @@
 
 2025-07-12
 
+2025-07-22
 

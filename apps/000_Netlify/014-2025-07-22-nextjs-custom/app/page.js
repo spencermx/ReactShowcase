@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 
 export default function TempHomePage(){
   const time = JSON.stringify({ time: new Date().toISOString() });
